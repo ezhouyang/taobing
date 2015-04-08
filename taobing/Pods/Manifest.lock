@@ -1,0 +1,10 @@
+PODS:
+  - JTImageLabel (1.0.0)
+
+DEPENDENCIES:
+  - JTImageLabel (~> 1.0)
+
+SPEC CHECKSUMS:
+  JTImageLabel: c8ec5af42e56fe2c1c3f14bd6e1439e7fbf81ea1
+
+COCOAPODS: 0.36.3

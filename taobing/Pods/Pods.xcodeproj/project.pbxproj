@@ -1,0 +1,857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CB8CA5416D3B96A8D4FFD14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D95B811FF3B47A99F661C3 /* Foundation.framework */; };
+		352F434B84060B8FA07B3F8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D95B811FF3B47A99F661C3 /* Foundation.framework */; };
+		51EDD3DB99EEB5CF9B08EF90 /* JTImageLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CB3D02C412CF9DB62167B0 /* JTImageLabel.h */; };
+		58F280D6EC092F00F4BA1775 /* Pods-taobing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0F9CB8D876A6C72420D159 /* Pods-taobing-dummy.m */; };
+		66BBE1236C48367DF72F8D3F /* Pods-JTImageLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D487BA5FA73D2BFA148285B7 /* Pods-JTImageLabel-dummy.m */; };
+		77BDF2E34A7AD4B27DE9D377 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D95B811FF3B47A99F661C3 /* Foundation.framework */; };
+		7DEBBB9253552BF042C255BA /* JTImageLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE42C6042822E05C75C2C33 /* JTImageLabel.m */; };
+		804CE850AC482330D5788827 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D95B811FF3B47A99F661C3 /* Foundation.framework */; };
+		8464FF4293A57A90D32973CD /* Pods-taobingTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A980241316CE430DDD3F9FD /* Pods-taobingTests-dummy.m */; };
+		9D74A00C2659994B12320325 /* JTImageLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CB3D02C412CF9DB62167B0 /* JTImageLabel.h */; };
+		A53700F202186050253BDDBE /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8996E3202ED42A0B5F227A /* Pods-dummy.m */; };
+		C89ABA44E17C1BC7EBD271FA /* JTImageLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE42C6042822E05C75C2C33 /* JTImageLabel.m */; };
+		CF2783D1BD0D54B2354BEDF6 /* JTImageLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CB3D02C412CF9DB62167B0 /* JTImageLabel.h */; };
+		D0222CF33CA410612D168B69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D95B811FF3B47A99F661C3 /* Foundation.framework */; };
+		DA714787C0B24F95C094A3BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D95B811FF3B47A99F661C3 /* Foundation.framework */; };
+		E18DF52BCFDAA253C5E6DA85 /* Pods-taobing-JTImageLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6898F8FA2027AC5F4BEB25 /* Pods-taobing-JTImageLabel-dummy.m */; };
+		E2C02B24FCC1BC6D66DF406F /* Pods-taobingTests-JTImageLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 678DF714CA51F0FDAA1861FA /* Pods-taobingTests-JTImageLabel-dummy.m */; };
+		F3CE55AEDE9685238008A478 /* JTImageLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE42C6042822E05C75C2C33 /* JTImageLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32CC26AC9F79B997E43BE6FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE28318F38A4B34A0AA9FBCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BD494D5CFBC77AF4F7DF01D;
+			remoteInfo = "Pods-taobingTests-JTImageLabel";
+		};
+		39C91D478209EF3602D1BA13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE28318F38A4B34A0AA9FBCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A29D2ED013D46E97A537A549;
+			remoteInfo = "Pods-taobing-JTImageLabel";
+		};
+		44EA6D9302B564BCA27CF2DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE28318F38A4B34A0AA9FBCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A9498957BDBC037828046AA;
+			remoteInfo = "Pods-JTImageLabel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F502060B44FC5CA71BB849 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		05DF92A8907E9EC4EC813AEB /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		0A4260BAAE9063C5F3E81DB7 /* Pods-taobingTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-taobingTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		12CB3D02C412CF9DB62167B0 /* JTImageLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTImageLabel.h; path = JTImageLabel/JTImageLabel.h; sourceTree = "<group>"; };
+		1A980241316CE430DDD3F9FD /* Pods-taobingTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-taobingTests-dummy.m"; sourceTree = "<group>"; };
+		1F8996E3202ED42A0B5F227A /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		326397E0A217248FD4D679CF /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		37C549F6016A9634B4492A20 /* Pods-taobing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-taobing.release.xcconfig"; sourceTree = "<group>"; };
+		383BA3E103E444B574D146EA /* Pods-taobing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-taobing.debug.xcconfig"; sourceTree = "<group>"; };
+		422267172B7DB4616506C0B8 /* Pods-taobingTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-taobingTests-environment.h"; sourceTree = "<group>"; };
+		427CCC9A607070ADDE0A9D3B /* Pods-taobingTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-taobingTests-resources.sh"; sourceTree = "<group>"; };
+		4D909089C319D8B119DF6D72 /* Pods-taobing-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-taobing-resources.sh"; sourceTree = "<group>"; };
+		561BD693BC32B53F956EAB2B /* Pods-taobingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-taobingTests.release.xcconfig"; sourceTree = "<group>"; };
+		58072A4EF8BAAFC260CDB549 /* Pods-taobingTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-taobingTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		58679FCD22C34B006ABE6923 /* libPods-taobingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-taobingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD398327A6D7D32F11CE54B /* Pods-taobing-JTImageLabel-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taobing-JTImageLabel-Private.xcconfig"; path = "../Pods-taobing-JTImageLabel/Pods-taobing-JTImageLabel-Private.xcconfig"; sourceTree = "<group>"; };
+		5FE42C6042822E05C75C2C33 /* JTImageLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTImageLabel.m; path = JTImageLabel/JTImageLabel.m; sourceTree = "<group>"; };
+		62E31690D8FBC35BDC2E75C5 /* Pods-taobing-JTImageLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taobing-JTImageLabel.xcconfig"; path = "../Pods-taobing-JTImageLabel/Pods-taobing-JTImageLabel.xcconfig"; sourceTree = "<group>"; };
+		678DF714CA51F0FDAA1861FA /* Pods-taobingTests-JTImageLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-taobingTests-JTImageLabel-dummy.m"; path = "../Pods-taobingTests-JTImageLabel/Pods-taobingTests-JTImageLabel-dummy.m"; sourceTree = "<group>"; };
+		7BE3080975A98A2D9B52199F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C4A254BB0C447A73EB9AC2B /* Pods-taobing-JTImageLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-taobing-JTImageLabel-prefix.pch"; path = "../Pods-taobing-JTImageLabel/Pods-taobing-JTImageLabel-prefix.pch"; sourceTree = "<group>"; };
+		83A6E41F6E6934C81C4AE048 /* Pods-taobing-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-taobing-acknowledgements.markdown"; sourceTree = "<group>"; };
+		997154841555814E0627BCC7 /* Pods-taobingTests-JTImageLabel-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taobingTests-JTImageLabel-Private.xcconfig"; path = "../Pods-taobingTests-JTImageLabel/Pods-taobingTests-JTImageLabel-Private.xcconfig"; sourceTree = "<group>"; };
+		99C39E66D311627C32287235 /* Pods-JTImageLabel-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JTImageLabel-Private.xcconfig"; sourceTree = "<group>"; };
+		A37E7158D53DE08CD387907B /* Pods-JTImageLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JTImageLabel.xcconfig"; sourceTree = "<group>"; };
+		A529C92B322209B4FF841342 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		AA0F9CB8D876A6C72420D159 /* Pods-taobing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-taobing-dummy.m"; sourceTree = "<group>"; };
+		AA6898F8FA2027AC5F4BEB25 /* Pods-taobing-JTImageLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-taobing-JTImageLabel-dummy.m"; path = "../Pods-taobing-JTImageLabel/Pods-taobing-JTImageLabel-dummy.m"; sourceTree = "<group>"; };
+		B50B7D5ECDD620DD4EB26FD7 /* Pods-taobing-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-taobing-environment.h"; sourceTree = "<group>"; };
+		B7061DE1D76C716A7C515964 /* libPods-taobing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-taobing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03F0DA94B86C45994941AFD /* libPods-taobing-JTImageLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-taobing-JTImageLabel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCAD5E0B0D195B48C28C889B /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D487BA5FA73D2BFA148285B7 /* Pods-JTImageLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JTImageLabel-dummy.m"; sourceTree = "<group>"; };
+		D6D95B811FF3B47A99F661C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DBF8BAFA84FA944BE3EC2CEA /* Pods-taobingTests-JTImageLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taobingTests-JTImageLabel.xcconfig"; path = "../Pods-taobingTests-JTImageLabel/Pods-taobingTests-JTImageLabel.xcconfig"; sourceTree = "<group>"; };
+		DC93819EA5AF70CA2BF1D04B /* Pods-taobingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-taobingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2EAB7F087B7B2416DB71DDD /* Pods-taobingTests-JTImageLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-taobingTests-JTImageLabel-prefix.pch"; path = "../Pods-taobingTests-JTImageLabel/Pods-taobingTests-JTImageLabel-prefix.pch"; sourceTree = "<group>"; };
+		E905B47A5F7798030734B880 /* Pods-taobing-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-taobing-acknowledgements.plist"; sourceTree = "<group>"; };
+		E9DF205B0DD1D68C3A37D0C7 /* libPods-taobingTests-JTImageLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-taobingTests-JTImageLabel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E3B85462F38FBB71712576 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EF1F6A74F63699D8B204E28D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		EFE2564CED80876309A7F21D /* Pods-JTImageLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JTImageLabel-prefix.pch"; sourceTree = "<group>"; };
+		F5C007E7132BFD9C9399492A /* libPods-JTImageLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JTImageLabel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47B7F7C4F361D865B123A39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CB8CA5416D3B96A8D4FFD14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EFE5CCA1BD162C144ADA98F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BDF2E34A7AD4B27DE9D377 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BC33EC4229A62B0BD8BA12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0222CF33CA410612D168B69 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		793E236E896C53C50DCFBDCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA714787C0B24F95C094A3BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90FCAAD38E445F936603731B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352F434B84060B8FA07B3F8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C238D21116C06E71FBE8F708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804CE850AC482330D5788827 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		088CC53108DD4CE67816AA5E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				841AF32FCACCD9277E12ADC5 /* Pods */,
+				8BBD6FB2CC2BB36E6EA4F6A8 /* Pods-taobing */,
+				ADC95F24262404BF5E3FD059 /* Pods-taobingTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		59B5BD5C110A14B30A852AE3 /* JTImageLabel */ = {
+			isa = PBXGroup;
+			children = (
+				12CB3D02C412CF9DB62167B0 /* JTImageLabel.h */,
+				5FE42C6042822E05C75C2C33 /* JTImageLabel.m */,
+				631EBE40E3FACEFB39E95BB8 /* Support Files */,
+			);
+			path = JTImageLabel;
+			sourceTree = "<group>";
+		};
+		5CB5C510286BFF3EDDA71257 = {
+			isa = PBXGroup;
+			children = (
+				CCAD5E0B0D195B48C28C889B /* Podfile */,
+				D46699FCBA504031D0F3F2E2 /* Frameworks */,
+				B288AA2B5B50B9E43300A9F0 /* Pods */,
+				D5D51EE270BFDD6A8425D1CC /* Products */,
+				088CC53108DD4CE67816AA5E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		631EBE40E3FACEFB39E95BB8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A37E7158D53DE08CD387907B /* Pods-JTImageLabel.xcconfig */,
+				99C39E66D311627C32287235 /* Pods-JTImageLabel-Private.xcconfig */,
+				D487BA5FA73D2BFA148285B7 /* Pods-JTImageLabel-dummy.m */,
+				EFE2564CED80876309A7F21D /* Pods-JTImageLabel-prefix.pch */,
+				62E31690D8FBC35BDC2E75C5 /* Pods-taobing-JTImageLabel.xcconfig */,
+				5CD398327A6D7D32F11CE54B /* Pods-taobing-JTImageLabel-Private.xcconfig */,
+				AA6898F8FA2027AC5F4BEB25 /* Pods-taobing-JTImageLabel-dummy.m */,
+				7C4A254BB0C447A73EB9AC2B /* Pods-taobing-JTImageLabel-prefix.pch */,
+				DBF8BAFA84FA944BE3EC2CEA /* Pods-taobingTests-JTImageLabel.xcconfig */,
+				997154841555814E0627BCC7 /* Pods-taobingTests-JTImageLabel-Private.xcconfig */,
+				678DF714CA51F0FDAA1861FA /* Pods-taobingTests-JTImageLabel-dummy.m */,
+				E2EAB7F087B7B2416DB71DDD /* Pods-taobingTests-JTImageLabel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-JTImageLabel";
+			sourceTree = "<group>";
+		};
+		841AF32FCACCD9277E12ADC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9E3B85462F38FBB71712576 /* Pods-acknowledgements.markdown */,
+				326397E0A217248FD4D679CF /* Pods-acknowledgements.plist */,
+				1F8996E3202ED42A0B5F227A /* Pods-dummy.m */,
+				05DF92A8907E9EC4EC813AEB /* Pods-environment.h */,
+				04F502060B44FC5CA71BB849 /* Pods-resources.sh */,
+				EF1F6A74F63699D8B204E28D /* Pods.debug.xcconfig */,
+				A529C92B322209B4FF841342 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		8BBD6FB2CC2BB36E6EA4F6A8 /* Pods-taobing */ = {
+			isa = PBXGroup;
+			children = (
+				83A6E41F6E6934C81C4AE048 /* Pods-taobing-acknowledgements.markdown */,
+				E905B47A5F7798030734B880 /* Pods-taobing-acknowledgements.plist */,
+				AA0F9CB8D876A6C72420D159 /* Pods-taobing-dummy.m */,
+				B50B7D5ECDD620DD4EB26FD7 /* Pods-taobing-environment.h */,
+				4D909089C319D8B119DF6D72 /* Pods-taobing-resources.sh */,
+				383BA3E103E444B574D146EA /* Pods-taobing.debug.xcconfig */,
+				37C549F6016A9634B4492A20 /* Pods-taobing.release.xcconfig */,
+			);
+			name = "Pods-taobing";
+			path = "Target Support Files/Pods-taobing";
+			sourceTree = "<group>";
+		};
+		952199166A558687FB95BAF5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6D95B811FF3B47A99F661C3 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ADC95F24262404BF5E3FD059 /* Pods-taobingTests */ = {
+			isa = PBXGroup;
+			children = (
+				58072A4EF8BAAFC260CDB549 /* Pods-taobingTests-acknowledgements.markdown */,
+				0A4260BAAE9063C5F3E81DB7 /* Pods-taobingTests-acknowledgements.plist */,
+				1A980241316CE430DDD3F9FD /* Pods-taobingTests-dummy.m */,
+				422267172B7DB4616506C0B8 /* Pods-taobingTests-environment.h */,
+				427CCC9A607070ADDE0A9D3B /* Pods-taobingTests-resources.sh */,
+				DC93819EA5AF70CA2BF1D04B /* Pods-taobingTests.debug.xcconfig */,
+				561BD693BC32B53F956EAB2B /* Pods-taobingTests.release.xcconfig */,
+			);
+			name = "Pods-taobingTests";
+			path = "Target Support Files/Pods-taobingTests";
+			sourceTree = "<group>";
+		};
+		B288AA2B5B50B9E43300A9F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59B5BD5C110A14B30A852AE3 /* JTImageLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D46699FCBA504031D0F3F2E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				952199166A558687FB95BAF5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5D51EE270BFDD6A8425D1CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BE3080975A98A2D9B52199F /* libPods.a */,
+				F5C007E7132BFD9C9399492A /* libPods-JTImageLabel.a */,
+				B7061DE1D76C716A7C515964 /* libPods-taobing.a */,
+				C03F0DA94B86C45994941AFD /* libPods-taobing-JTImageLabel.a */,
+				58679FCD22C34B006ABE6923 /* libPods-taobingTests.a */,
+				E9DF205B0DD1D68C3A37D0C7 /* libPods-taobingTests-JTImageLabel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		375B303729AA9402E25D2AB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D74A00C2659994B12320325 /* JTImageLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F5DF33018163BE0DEEDF45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51EDD3DB99EEB5CF9B08EF90 /* JTImageLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0F312865691FED40C21342 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2783D1BD0D54B2354BEDF6 /* JTImageLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02C4EF3A74AC643B09E8C411 /* Pods-taobingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48752DEC954F44FD6C34ADBF /* Build configuration list for PBXNativeTarget "Pods-taobingTests" */;
+			buildPhases = (
+				4C0F4FF0E717758E0BD25424 /* Sources */,
+				90FCAAD38E445F936603731B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB01E19300225BFF739B1ECF /* PBXTargetDependency */,
+			);
+			name = "Pods-taobingTests";
+			productName = "Pods-taobingTests";
+			productReference = 58679FCD22C34B006ABE6923 /* libPods-taobingTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4A9498957BDBC037828046AA /* Pods-JTImageLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8A7C6BAC0EC844997FF85F6 /* Build configuration list for PBXNativeTarget "Pods-JTImageLabel" */;
+			buildPhases = (
+				24137232ADF0A57CD998394B /* Sources */,
+				793E236E896C53C50DCFBDCF /* Frameworks */,
+				8F0F312865691FED40C21342 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JTImageLabel";
+			productName = "Pods-JTImageLabel";
+			productReference = F5C007E7132BFD9C9399492A /* libPods-JTImageLabel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7873A8E2A1A137E0D6F161E2 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F5FD428E8ED1F52772A62DF /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				87AA0449AFDA7B3D758C1BD4 /* Sources */,
+				4EFE5CCA1BD162C144ADA98F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE0430E689329A37B72B8550 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 7BE3080975A98A2D9B52199F /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8BD494D5CFBC77AF4F7DF01D /* Pods-taobingTests-JTImageLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBFDCF7DD0CECD8D85D4DE12 /* Build configuration list for PBXNativeTarget "Pods-taobingTests-JTImageLabel" */;
+			buildPhases = (
+				81763AAC0AC1E08DB26B142C /* Sources */,
+				66BC33EC4229A62B0BD8BA12 /* Frameworks */,
+				375B303729AA9402E25D2AB2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-taobingTests-JTImageLabel";
+			productName = "Pods-taobingTests-JTImageLabel";
+			productReference = E9DF205B0DD1D68C3A37D0C7 /* libPods-taobingTests-JTImageLabel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A29D2ED013D46E97A537A549 /* Pods-taobing-JTImageLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF97EFFCC197AEC3ADD6026E /* Build configuration list for PBXNativeTarget "Pods-taobing-JTImageLabel" */;
+			buildPhases = (
+				34066F11A46F413869B96238 /* Sources */,
+				C238D21116C06E71FBE8F708 /* Frameworks */,
+				84F5DF33018163BE0DEEDF45 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-taobing-JTImageLabel";
+			productName = "Pods-taobing-JTImageLabel";
+			productReference = C03F0DA94B86C45994941AFD /* libPods-taobing-JTImageLabel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F7EBEAB26D4D0D2A8235F004 /* Pods-taobing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73FFF204F9EC9A8E85929E75 /* Build configuration list for PBXNativeTarget "Pods-taobing" */;
+			buildPhases = (
+				105CB1D3A9941AC8075ABCF6 /* Sources */,
+				47B7F7C4F361D865B123A39B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B1383376D27660F57452530 /* PBXTargetDependency */,
+			);
+			name = "Pods-taobing";
+			productName = "Pods-taobing";
+			productReference = B7061DE1D76C716A7C515964 /* libPods-taobing.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE28318F38A4B34A0AA9FBCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = EC712F3EE374973ACA1FFDA1 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5CB5C510286BFF3EDDA71257;
+			productRefGroup = D5D51EE270BFDD6A8425D1CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7873A8E2A1A137E0D6F161E2 /* Pods */,
+				4A9498957BDBC037828046AA /* Pods-JTImageLabel */,
+				F7EBEAB26D4D0D2A8235F004 /* Pods-taobing */,
+				A29D2ED013D46E97A537A549 /* Pods-taobing-JTImageLabel */,
+				02C4EF3A74AC643B09E8C411 /* Pods-taobingTests */,
+				8BD494D5CFBC77AF4F7DF01D /* Pods-taobingTests-JTImageLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		105CB1D3A9941AC8075ABCF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F280D6EC092F00F4BA1775 /* Pods-taobing-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24137232ADF0A57CD998394B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CE55AEDE9685238008A478 /* JTImageLabel.m in Sources */,
+				66BBE1236C48367DF72F8D3F /* Pods-JTImageLabel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34066F11A46F413869B96238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89ABA44E17C1BC7EBD271FA /* JTImageLabel.m in Sources */,
+				E18DF52BCFDAA253C5E6DA85 /* Pods-taobing-JTImageLabel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0F4FF0E717758E0BD25424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8464FF4293A57A90D32973CD /* Pods-taobingTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81763AAC0AC1E08DB26B142C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DEBBB9253552BF042C255BA /* JTImageLabel.m in Sources */,
+				E2C02B24FCC1BC6D66DF406F /* Pods-taobingTests-JTImageLabel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AA0449AFDA7B3D758C1BD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53700F202186050253BDDBE /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B1383376D27660F57452530 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-taobing-JTImageLabel";
+			target = A29D2ED013D46E97A537A549 /* Pods-taobing-JTImageLabel */;
+			targetProxy = 39C91D478209EF3602D1BA13 /* PBXContainerItemProxy */;
+		};
+		AE0430E689329A37B72B8550 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JTImageLabel";
+			target = 4A9498957BDBC037828046AA /* Pods-JTImageLabel */;
+			targetProxy = 44EA6D9302B564BCA27CF2DA /* PBXContainerItemProxy */;
+		};
+		FB01E19300225BFF739B1ECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-taobingTests-JTImageLabel";
+			target = 8BD494D5CFBC77AF4F7DF01D /* Pods-taobingTests-JTImageLabel */;
+			targetProxy = 32CC26AC9F79B997E43BE6FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0251FF2D3AD97145C21557E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37C549F6016A9634B4492A20 /* Pods-taobing.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		07898712BF45B2C60364D620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 997154841555814E0627BCC7 /* Pods-taobingTests-JTImageLabel-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-taobingTests-JTImageLabel/Pods-taobingTests-JTImageLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1C1FA4452052639310749C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF1F6A74F63699D8B204E28D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		24A86FE10CF638600EA4119E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 997154841555814E0627BCC7 /* Pods-taobingTests-JTImageLabel-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-taobingTests-JTImageLabel/Pods-taobingTests-JTImageLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5D7EF18D0322A1DC2E164FD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC93819EA5AF70CA2BF1D04B /* Pods-taobingTests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		69859D9345F888DEE4351855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 561BD693BC32B53F956EAB2B /* Pods-taobingTests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6E98C76F96AA8673235FDF69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AB269D5181748992BA7B2BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CD398327A6D7D32F11CE54B /* Pods-taobing-JTImageLabel-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-taobing-JTImageLabel/Pods-taobing-JTImageLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AEE16BB5F249C5DE3E13A617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 383BA3E103E444B574D146EA /* Pods-taobing.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ED73D7558F8D65E474A26562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CD398327A6D7D32F11CE54B /* Pods-taobing-JTImageLabel-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-taobing-JTImageLabel/Pods-taobing-JTImageLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F0431A6794908EB12E3507E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4FCD8EFAAE6621D0A9B3B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C39E66D311627C32287235 /* Pods-JTImageLabel-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JTImageLabel/Pods-JTImageLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F7A962299E313AABBA7FA06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C39E66D311627C32287235 /* Pods-JTImageLabel-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JTImageLabel/Pods-JTImageLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FF215574FC2BB86C5954524C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A529C92B322209B4FF841342 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F5FD428E8ED1F52772A62DF /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C1FA4452052639310749C20 /* Debug */,
+				FF215574FC2BB86C5954524C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48752DEC954F44FD6C34ADBF /* Build configuration list for PBXNativeTarget "Pods-taobingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D7EF18D0322A1DC2E164FD6 /* Debug */,
+				69859D9345F888DEE4351855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73FFF204F9EC9A8E85929E75 /* Build configuration list for PBXNativeTarget "Pods-taobing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEE16BB5F249C5DE3E13A617 /* Debug */,
+				0251FF2D3AD97145C21557E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8A7C6BAC0EC844997FF85F6 /* Build configuration list for PBXNativeTarget "Pods-JTImageLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A962299E313AABBA7FA06B /* Debug */,
+				F4FCD8EFAAE6621D0A9B3B16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF97EFFCC197AEC3ADD6026E /* Build configuration list for PBXNativeTarget "Pods-taobing-JTImageLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB269D5181748992BA7B2BCD /* Debug */,
+				ED73D7558F8D65E474A26562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBFDCF7DD0CECD8D85D4DE12 /* Build configuration list for PBXNativeTarget "Pods-taobingTests-JTImageLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07898712BF45B2C60364D620 /* Debug */,
+				24A86FE10CF638600EA4119E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC712F3EE374973ACA1FFDA1 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E98C76F96AA8673235FDF69 /* Debug */,
+				F0431A6794908EB12E3507E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE28318F38A4B34A0AA9FBCC /* Project object */;
+}
